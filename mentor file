@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+
+<html lang="ar-SA" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<title></title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
+<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
+
+		#MessageViewBody a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: inherit
+		}
+
+	
+		.desktop_hide,
+		.desktop_hide table {
+			mso-hide: all;
+			display: none;
+			max-height: 0px;
+			overflow: hidden;
+		}
+
+		.menu_block.desktop_hide .menu-links span {
+			mso-hide: all;
+		}
+
+		#memu-r0c1m1:checked~.menu-links {
+			background-color: #000000 !important;
+		}
+
+		#memu-r0c1m1:checked~.menu-links a,
+		#memu-r0c1m1:checked~.menu-links span {
+			color: #ffffff !important;
+		}
+
+		@media (max-width:680px) {
+
+			.desktop_hide table.icons-inner,
+			.social_block.desktop_hide .social-table {
+				display: inline-block !important;
+			}
+
+			.icons-inner {
+				text-align: center;
+			}
+
+			
+			.icons-inner td {
+				margin: 0 auto;
+			}
+
+			.image_block img.big,
+			.row-content {
+				width: 100% !important;
+			}
+
+			.menu-checkbox[type=checkbox]~.menu-links {
+				display: none !important;
+				padding: 5px 0;
+			}
+
+			.menu-checkbox[type=checkbox]:checked~.menu-trigger .menu-open {
+				display: none !important;
+			}
+
+			.menu-checkbox[type=checkbox]:checked~.menu-links,
+			.menu-checkbox[type=checkbox]~.menu-trigger {
+				display: block !important;
+				max-width: none !important;
+				max-height: none !important;
+				font-size: inherit !important;
+			}
+
+			.menu-checkbox[type=checkbox]~.menu-links>a,
+			.menu-checkbox[type=checkbox]~.menu-links>span.label {
+				display: block !important;
+				text-align: center;
+			}
+
+			.menu-checkbox[type=checkbox]:checked~.menu-trigger .menu-close {
+				display: block !important;
+			}
+			.mobile_hide {
+				display: none;
+			}
+
+			.stack .column {
+				width: 100%;
+				display: block;
+			}
+
+			.mobile_hide {
+				min-height: 0;
+				max-height: 0;
+				max-width: 0;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide,
+			.desktop_hide table {
+				display: table !important;
+				max-height: none !important;
+			}
+
+			.reverse {
+				display: table;
+				width: 100%;
+			}
+
+			.reverse .column.first {
+				display: table-footer-group !important;
+			}
+
+			.reverse .column.last {
+				display: table-header-group !important;
+			}
+
+			.row-10 td.column.first>table,
+			.row-10 td.column.last>table,
+			.row-14 td.column.first>table,
+			.row-14 td.column.last>table {
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+			.row-10 td.column.first .border {
+				border-top: 0 solid #292A2A;
+				border-right: 0px solid #292A2A;
+				border-bottom: 0 solid #292A2A;
+				border-left: 0 solid #292A2A;
+			}
+
+			.row-10 td.column.last .border,
+			.row-14 td.column.first .border,
+			.row-14 td.column.last .border {
+				border-top: 0;
+				border-right: 0px;
+				border-bottom: 0;
+				border-left: 0;
+			}
+
+			.row-6 .column-1 .block-1.button_block td.pad {
+				padding: 10px !important;
+			}
+
+			.row-6 .column-1 .block-1.button_block a span,
+			.row-6 .column-1 .block-1.button_block div span {
+				font-size: 10px !important;
+				line-height: 2 !important;
+			}
+
+			.row-5 .column-1 .block-1.heading_block h1 {
+				font-size: 9px !important;
+			}
+
+			.row-4 .column-1 .block-1.heading_block h1 {
+				font-size: 14px !important;
+			}
+
+			.row-3 .column-1 .block-1.heading_block h1 {
+				font-size: 11px !important;
+			}
+
+			.row-2 .column-1 .block-1.image_block td.pad {
+				padding: 0 !important;
+			}
+
+			.row-7 .column-1 .block-1.heading_block h1 {
+				font-size: 13px !important;
+			}
+
+			.row-2 .column-1 {
+				padding: 20px 0 0 !important;
+			}
+............
+			.row-7 .column-1 {
+				padding: 30px 0 !important;
+			}
+		}
+	</style>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  line-height: 1.5;">
+<body style="background-color: rgb(255, 255, 255); margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none; color: #ffffff;">
+<table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #000000; color: #000000; background-image: none; background-position: top left; background-size: auto; background-repeat: no-repeat;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-left: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="25%">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:20px;padding-bottom:20px;">
+<div align="right" class="alignment" style="line-height:10px"><img src="https://about.almentor.net/assets/images/alm-logo.png" style="display: block; height: auto; border: 0; width: 160px; max-width: 100%;" width="160"/></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="75%">
+<table border="0" cellpadding="0" cellspacing="0" class="menu_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="color:#000000;font-family:Verdana, Geneva, sans-serif;font-size:16px;letter-spacing:0px;text-align:right;padding-top:5px;padding-bottom:5px;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="alignment" style="text-align:right;font-size:0px;">
+<!--[if !mso]><!--><input class="menu-checkbox" id="memu-r0c1m1" style="display:none !important;max-height:0;visibility:hidden;" type="checkbox"/>
+<!--<![endif]-->
+<div class="menu-trigger" style="display:none;max-height:0px;max-width:0px;font-size:0px;overflow:hidden;"><label class="menu-label" for="memu-r0c1m1" style="height: 36px; width: 36px; display: inline-block; cursor: pointer; mso-hide: all; user-select: none; align: right; text-align: center; color: #000000; text-decoration: none; background-color: #000000; border-radius: 50%;"><span class="menu-open" style="mso-hide:all;font-size:26px;line-height:36px;">☰</span><span class="menu-close" style="display:none;mso-hide:all;font-size:26px;line-height:36px;">✕</span></label></div>
+<div class="menu-links">
+<!--[if mso]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="">
+<tr>
+<td style="padding-top:25px;padding-right:10px;padding-bottom:5px;padding-left:15px">
+<![endif]--><a href="https://www.almentor.net/mentors" style="padding-top:25px;padding-bottom:5px;padding-left:15px;padding-right:10px;display:inline-block;color:#f2f1f2;font-family:Verdana, Geneva, sans-serif;font-size:16px;text-decoration:none;letter-spacing:normal;">الخبراء</a>
+<!--[if mso]></td><td style="padding-top:25px;padding-right:10px;padding-bottom:5px;padding-left:15px"><![endif]--><a href="https://www.almentor.net/courses" style="padding-top:25px;padding-bottom:5px;padding-left:15px;padding-right:10px;display:inline-block;color:#f2f1f2;font-family:Verdana, Geneva, sans-serif;font-size:16px;text-decoration:none;letter-spacing:normal;">الدورات التدريبية</a>
+<!--[if mso]></td><td style="padding-top:25px;padding-right:10px;padding-bottom:5px;padding-left:15px"><![endif]--><a href="https://www.almentor.net/home" style="padding-top:25px;padding-bottom:5px;padding-left:15px;padding-right:10px;display:inline-block;color:#f2f1f2;font-family:Verdana, Geneva, sans-serif;font-size:16px;text-decoration:none;letter-spacing:normal;">الصفحة الرئيسية</a>
+<!--[if mso]></td></tr></table><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 5px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
+<div align="center" class="alignment" style="line-height:10px"><img class="big" src="https://github.com/Monica1906/Monica1906/blob/main/2.png?raw=true" style="display: block; height: auto; border: 0; width: 660px; max-width: 100%;" width="660"/></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 5px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="heading_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<h1 style="margin: 0; color: #ff0000; direction: rtl; font-family: 'Ubuntu', Tahoma, Verdana, Segoe, sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 1px; line-height: 200%; text-align: center; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">+100 كورس جديد تنضم إلى مكتبة كورسات المنتور </span></h1>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 0px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="heading_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<h1 style="margin: 0; color: #fcfaff; direction: ltr; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 23px; font-weight: 700; letter-spacing: normal; line-height: 120%; text-align: center; margin-top: 0; margin-bottom: 0;;line-height: 2;"><span class="tinyMce-placeholder">أكثر من 100 كورس جديد قمنا بإضافتها إلى مكتبة كورسات المنتور في مجالات متنوعة لتواكب تغيرات السوق</span></h1>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 5px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="text-align:center;width:100%;">
+<h1 style="margin: 0; color: #868086; direction: ltr; font-family: 'Ubuntu', Tahoma, Verdana, Segoe, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: normal; line-height: 150%; text-align: center; margin-top: 0; margin-bottom: 0;">ابدأ من هنا واختر بين مئات الكورسات على منصة المنتور</h1>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-6" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 5px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="15" cellspacing="0" class="button_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<div align="center" class="alignment">
+<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.almentor.net/subscription-plans" style="height:20px;width:94px;v-text-anchor:middle;" arcsize="30%" stroke="false" fillcolor="#f60202"><w:anchorlock/><v:textbox inset="0px,0px,25px,0px"><center style="color:#ffffff; font-family:Tahoma, Verdana, sans-serif; font-size:14px"><![endif]--><a href="https://www.almentor.net/subscription-plans" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#f60202;border-radius:6px;width:auto;border-top:0px solid transparent;font-weight:700;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:0px;padding-bottom:0px;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:0px;padding-right:25px;font-size:14px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 28px;">      اشترك الآن</span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="10" cellspacing="0" class="divider_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<div align="center" class="alignment">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="60%">
+<tr>
+<td class="divider_inner" style="font-size: 1px; line-height: 1px; border-top: 1px solid #DD0909;"><span> </span></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-7" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 35px; padding-bottom: 30px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="text-align:center;width:100%;">
+<h1 style="margin: 0; color: #fcfaff; direction: ltr; font-family: 'Ubuntu', Tahoma, Verdana, Segoe, sans-serif; font-size: 21px; font-weight: 700; letter-spacing: normal; line-height: 180%; text-align: center; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">‍! اكتشف بعض الكورسات الجديدة هنا</span></h1>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div <sty>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-8" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #292a2a; border-radius: 0; color: #000000; width: 570px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; border-bottom: 0px solid #292A2A; border-left: 0px solid #292A2A; border-right: 0px solid #292A2A; border-top: 0px solid #292A2A; vertical-align: middle;" width="25%">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
+<div align="center" class="alignment" style="line-height:10px"><img src="https://github.com/Monica1906/Monica1906/blob/main/Place%20Image%20Here.png?raw=true" style="display: block; height: 215px; border: 0; width: 156px; max-width: 100%;" width="156"/></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="75%">
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-right:40px;padding-top:25px;text-align:center;width:100%;">
+<h1 style="margin: 0; color: #555555; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 12px; font-weight: 400; letter-spacing: normal; line-height: 120%; text-align: right; margin-top: 0; margin-bottom: 0;">أيمن أبو المكارم</h1>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-right:20px;padding-top:15px;text-align:center;width:100%;">
+<h1 style="margin: 0; color: #fcfaff; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 16px; font-weight: 700; letter-spacing: normal; line-height: 180%; text-align: right; margin-top: 0; margin-bottom: 0;">فن الإضاءة السينمائية</h1>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-left:20px;padding-right:20px;padding-top:20px;text-align:center;width:100%;">
+<h3 style="margin: 0; color: #555555; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 13px; font-weight: 500; letter-spacing: normal; line-height: 150%; text-align: right; margin-top: 0; margin-bottom: 0;">مع الخبير أيمن أبو المكارم، مدير تصوير مصري شارك في العديد من الأعمال السينمائية الناجحة</h3>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="button_block block-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-bottom:15px;padding-left:10px;padding-right:20px;padding-top:25px;text-align:right;">
+<div align="right" class="alignment">
+<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.almentor.net/courses/Parents-back-to-school-guide" style="height:20px;width:80px;v-text-anchor:middle;" arcsize="20%" stroke="false" fillcolor="#f60202"><w:anchorlock/><v:textbox inset="5px,0px,0px,0px"><center style="color:#ffffff; font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:10px"><![endif]--><a href="https://www.almentor.net/courses/Parents-back-to-school-guide" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#f60202;border-radius:4px;width:auto;border-top:0px solid transparent;font-weight:700;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:0px;padding-bottom:0px;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:15px;font-size:10px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 20px;">اعرف أكثر</span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-9" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #000000; vertical-align: top; padding-top: 0px; padding-bottom: 0px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="paragraph_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tr>
+<td class="pad">
+<div style="color:#000000;direction:ltr;font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:16.8px;">
+<p style="margin: 0;"></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-10" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #292a2a; border-radius: 0; color: #000000; width: 570px;" width="660">
+<tbody>
+<tr class="reverse">
+<td class="column column-1 first" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; border-bottom: 0px solid #292A2A; border-left: 0px solid #292A2A; border-right: 0px solid #292A2A; border-top: 0px solid #292A2A; vertical-align: middle;" width="75%">
+<div class="border">
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-right:40px;padding-top:20px;text-align:center;width:100%;">
+<h1 style="margin: 0; color: #555555; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 12px; font-weight: 400; letter-spacing: normal; line-height: 120%; text-align: right; margin-top: 0; margin-bottom: 0;">فادي سري الدين</h1>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-right:20px;padding-top:15px;text-align:center;width:100%;">
+<h1 style="margin: 0; color: #fcfaff; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 16px; font-weight: 700; letter-spacing: normal; line-height: 180%; text-align: right; margin-top: 0; margin-bottom: 0;">الخلافات في العمل: تحديات أم فرص؟</h1>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-left:20px;padding-right:20px;padding-top:20px;text-align:center;width:100%;">
+<h3 style="margin: 0; color: #555555; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: normal; line-height: 150%; text-align: right; margin-top: 0; margin-bottom: 0;">مع المدرب فادي سري الدين بخبرة أكثر من  18 عام في مجال تصميم وتقديم حلول التدريب</h3>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="button_block block-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-bottom:10px;padding-left:10px;padding-right:20px;padding-top:25px;text-align:right;">
+<div align="right" class="alignment">
+<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.almentor.net/courses/Parents-back-to-school-guide" style="height:20px;width:80px;v-text-anchor:middle;" arcsize="20%" stroke="false" fillcolor="#f60202"><w:anchorlock/><v:textbox inset="5px,0px,0px,0px"><center style="color:#ffffff; font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:10px"><![endif]--><a href="https://www.almentor.net/courses/Parents-back-to-school-guide" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#f60202;border-radius:4px;width:auto;border-top:0px solid transparent;font-weight:700;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:0px;padding-bottom:0px;font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:15px;font-size:10px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 20px;">اعرف أكثر</span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td class="column column-2 last" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="25%">
+<div class="border">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:5px;padding-bottom:5px;">
+<div align="center" class="alignment" style="line-height:10px"><img src="https://github.com/Monica1906/Monica1906/blob/main/image%202.png?raw=true" style="display: block; height: auto; border: 0; width: 156px; max-width: 100%;" width="156"/></div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-11" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 0px; padding-bottom: 0px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="paragraph_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tr>
+<td class="pad">
+<div style="color:#000000;direction:ltr;font-family:HNotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:16.8px;">
+<p style="margin: 0;"></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-12" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #292a2a; border-radius: 0; color: #000000; width: 570px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; border-bottom: 0px solid #292A2A; border-left: 0px solid #292A2A; border-right: 0px solid #292A2A; border-top: 0px solid #292A2A; vertical-align: middle;" width="25%">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
+<div align="center" class="alignment" style="line-height:10px"><img src="https://github.com/Monica1906/Monica1906/blob/main/image%203.png?raw=true" style="display: block; height: auto; border: 0; width: 156px; max-width: 100%;" width="156"/></div>
+</td>
+</tr>
+</table>
+</td>
+<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="75%">
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-right:40px;padding-top:25px;text-align:center;width:100%;">
+<h1 style="margin: 0; color: #555555; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;; font-size: 12px; font-weight: 400; letter-spacing: normal; line-height: 120%; text-align: right; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">إيفون محرم</span></h1>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-right:20px;padding-top:15px;text-align:center;width:100%;">
+<h1 style="margin: 0; color: #fcfaff; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;; font-size: 16px; font-weight: 700; letter-spacing: normal; line-height: 180%; text-align: right; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">دليل الأبوين للعودة إلى المدرسة</span></h1>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-left:40px;padding-right:20px;padding-top:20px;text-align:center;width:100%;">
+<h3 style="margin: 0; color: #555555; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: normal; line-height: 150%; text-align: right; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">مع أخصائية الصحة النفسية ومدربة التربية الإيجابية إيفون محرم</span></h3>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="button_block block-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+	<td class="pad" style="padding-bottom:10px;padding-left:10px;padding-right:20px;padding-top:25px;text-align:right;">
+	<div align="right" class="alignment">
+	<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="window.location.href='https://www.almentor.net/courses/Parents-back-to-school-guide" style="height:20px;width:80px;v-text-anchor:middle;" arcsize="20%" stroke="false" fillcolor="#f60202"><w:anchorlock/><v:textbox inset="5px,0px,0px,0px"><center style="color:#ffffff; font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:10px"><![endif]--><a href="https://www.almentor.net/courses/Parents-back-to-school-guide" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#f60202;border-radius:4px;width:auto;border-top:0px solid transparent;font-weight:700;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:0px;padding-bottom:0px;font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:15px;font-size:10px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 20px;">اعرف أكثر</span></span></a>
+	<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-13" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 570px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 5px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="paragraph_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tr>
+<td class="pad" style="padding-bottom:5px;padding-left:10px;padding-right:10px;padding-top:5px;">
+<div style="color:#000000;direction:ltr;font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:16.8px;"></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-14" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #292a2a; border-radius: 0; color: #000000; width: 570px;" width="660">
+<tbody>
+<tr class="reverse">
+<td class="column column-1 first" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="75%">
+<div class="border">
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-right:20px;padding-top:20px;text-align:center;width:100%;">
+<h1 style="margin: 0; color: #fcfaff; direction: rtl; font-family: 'Ubuntu', Tahoma, Verdana, Segoe, sans-serif; font-size: 16px; font-weight: 700; letter-spacing: normal; line-height: 180%; text-align: right; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">+30 كورس في مجال التكنولوجيا</span></h1>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-left:40px;padding-right:20px;padding-top:20px;text-align:center;width:100%;">
+<h3 style="margin: 0; color: #555555; direction: ltr; font-family: NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: normal; line-height: 120%; text-align: right; margin-top: 0; margin-bottom: 0;"><span class="tinyMce-placeholder">مقدمة من مجموعة من خبراء وعلماء البيانات والشبكات في الوطن العربي</span></h3>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="button_block block-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-bottom:15px;padding-left:10px;padding-right:20px;padding-top:25px;text-align:right;">
+<div align="right" class="alignment">
+<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.almentor.net/categories/Technology,-Science-&-Productivity" style="height:20px;width:80px;v-text-anchor:middle;" arcsize="20%" stroke="false" fillcolor="#f60202"><w:anchorlock/><v:textbox inset="5px,0px,0px,0px"><center style="color:#ffffff; font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:10px"><![endif]--><a href="https://www.almentor.net/categories/Technology,-Science-&-Productivity" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#f60202;border-radius:4px;width:auto;border-top:0px solid transparent;font-weight:700;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:0px;padding-bottom:0px;font-family:NotoKufiArabic,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:20px;padding-right:15px;font-size:10px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 20px;">اعرف أكثر</span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td class="column column-2 last" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="25%">
+<div class="border">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:5px;padding-bottom:5px;">
+<div align="center" class="alignment" style="line-height:10px"><img src="https://github.com/Monica1906/Monica1906/blob/main/image%204.png?raw=true" style="display: block; height: auto; border: 0; width: 156px; max-width: 100%;" width="156"/></div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-15" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-left: 30px; padding-right: 30px; vertical-align: top; padding-top: 40px; padding-bottom: 0px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="divider_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<div align="center" class="alignment">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="divider_inner" style="font-size: 1px; line-height: 1px; border-top: 1px solid #DD0909;"><span> </span></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-16" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-left: 30px; padding-right: 30px; vertical-align: top; padding-top: 0px; padding-bottom: 0px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="social_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<div class="alignment" style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0" class="social-table" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;" width="230px">
+<tr>
+<td style="padding:0 7px 0 70px;"><a href="https://www.facebook.com/almentornet" target="_blank"><img alt="Facebook" height="32" src="https://github.com/Monica1906/Monica1906/blob/main/facebook.png?raw=true" style="display: block; height: auto; border: 0;" title="Facebook" width="9"/></a></td>
+<td style="padding:0 7px 0 7px;"><a href="https://www.instagram.com/almentornet/" target="_blank"><img alt="Instagram" height="32" src="https://github.com/Monica1906/Monica1906/blob/main/instagram.png?raw=true" style="display: block; height: auto; border: 0;" title="Instagram" width="15"/></a></td>
+<td style="padding:0 7px 0 7px;"><a href="https://twitter.com/almentornet" target="_blank"><img alt="Twitter" height="32" src="https://github.com/Monica1906/Monica1906/blob/main/twitter.png?raw=true" style="display: block; height: auto; border: 0;" title="Twitter" width="15"/></a></td>
+<td style="padding:0 7px 0 7px;"><a href="https://www.youtube.com/channel/UCqI0BoVM1i5ZTqWZtkSFtVA" target="_blank"><img alt="YouTube" height="32" src="https://github.com/Monica1906/Monica1906/blob/main/youtube.png?raw=true" style="display: block; height: auto; border: 0;" title="YouTube" width="15"/></a></td>
+<td style="padding:0 7px 0 7px;"><a href="https://www.linkedin.com/company/almentor/" target="_blank"><img alt="LinkedIn" height="32" src="https://github.com/Monica1906/Monica1906/blob/main/linkedin.png?raw=true" style="display: block; height: auto; border: 0;" title="LinkedIn" width="15"/></a></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="heading_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="padding-left:40px;padding-right:10px;padding-top:15px;text-align:center;width:100%;">
+<h1 style="margin: 0; color: #555555; direction: rtl; font-family: Verdana, Segoe, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: normal; line-height: 150%; text-align: center; margin-top: 0; margin-bottom: 0;">You received this email because you subscribed Via almentor.net</h1>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-17" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; border-radius: 0; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 5px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="button_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad">
+<div align="center" class="alignment">
+<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:30px;width:93px;v-text-anchor:middle;" arcsize="14%" stroke="false" fill="false"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#7d7c7c; font-family:Tahoma, Verdana, sans-serif; font-size:10px"><![endif]-->
+<div style="text-decoration:none;display:inline-block;color:#7d7c7c;background-color:transparent;border-radius:4px;width:auto;border-top:0px solid transparent;font-weight:400;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:5px;padding-bottom:5px;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;"><span style="padding-left:20px;padding-right:20px;font-size:10px;display:inline-block;letter-spacing:normal;"><span dir="ltr" style="word-break: break-word; line-height: 20px;">Unsubscribe</span></span></div>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-18" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #101112; color: #000000; width: 660px;" width="660">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 5px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="icons_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="pad" style="vertical-align: middle; color: #9d9d9d; font-family: inherit; font-size: 15px; padding-bottom: 5px; padding-top: 5px; text-align: center;">
+<table cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tr>
+<td class="alignment" style="vertical-align: middle; text-align: center;">
+<!--[if vml]><table align="left" cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block;padding-left:0px;padding-right:0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;"><![endif]-->
+<!--[if !vml]><!-->
+<table cellpadding="0" cellspacing="0" class="icons-inner" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block; margin-right: -4px; padding-left: 0px; padding-right: 0px;">
+<!--<![endif]-->
+
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><!-- End -->
+</body>
+</html>
